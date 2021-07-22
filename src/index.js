@@ -4,6 +4,7 @@ import Cards from './api.js'
 import SimpleLightbox from "simplelightbox";
 import Notiflix from "notiflix";
 import Template from './partials/templates/cardMarkup.hbs'
+import './sass/main.scss'
   
 const cardsContainer = document.querySelector('.gallery');
 const searchForm = document.getElementById('search-form');

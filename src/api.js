@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+
 const BASE_URL = 'https://pixabay.com/api/';
 export default class Cards {
   constructor() {
