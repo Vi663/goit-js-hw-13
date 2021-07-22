@@ -42,8 +42,8 @@ function onImageClick(e) {
 };
 
 function onLoadMore() {
-  openLightBox();
-  gallery.refresh();
+  // openLightBox();
+  // gallery.refresh();
   newCard.nextPage();
   renderMarkup();
 };
